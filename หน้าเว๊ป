@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hipster Steak | คาเฟ่สเต็ก</title>
+  <style>
+    body {
+      font-family: 'Sarabun', sans-serif;
+      margin: 0;
+      background: #fffbea;
+      color: #333;
+    }
+    header {
+      background: #ffd54f;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+    .menu {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .menu-item {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .menu-item h3 {
+      margin-top: 0.5rem;
+      color: #e65100;
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      text-align: center;
+      background: #ffe082;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hipster Steak</h1>
+    <p>คาเฟ่สเต็กในสวน - สาขากรมที่ดินบางบัวทอง</p>
+  </header>
+  <main>
+    <h2>เมนูแนะนำ</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/200x150" alt="สเต็กเนื้อ">
+        <h3>สเต็กเนื้อริบอาย</h3>
+        <p>เนื้อนุ่ม ฉ่ำ ซอสพิเศษสูตรโฮมเมด</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/200x150" alt="พอร์คชอป">
+        <h3>พอร์คชอป</h3>
+        <p>หมูชิ้นโต ย่างไฟหอม ซอสพริกไทยดำ</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://via.placeholder.com/200x150" alt="สเต็กไก่">
+        <h3>สเต็กไก่สไปซี่</h3>
+        <p>ไก่หมักพริกไทยเผ็ดกำลังดี กรอบนอกนุ่มใน</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Hipster Steak | อร่อย มีสไตล์ ในสวนธรรมชาติ</p>
+  </footer>
+</body>
+</html>
